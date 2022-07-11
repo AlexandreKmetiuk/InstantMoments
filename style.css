@@ -1,0 +1,194 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	width: 100%;
+	height: 100%;	
+	display: flex;
+	justify-content: center;
+}
+
+.flex{
+	display: flex;
+}
+
+section.wrapper{
+	align-items: center;
+	justify-content: start;
+	width: 60%;
+	height: 100vh;
+}
+
+.phone{
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+}
+
+.phone img{
+	height: 50rem;
+}
+
+.form-continue{
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 50%;
+	height: 45rem;	
+}
+
+.group{
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	padding: 1.5rem 0;
+	border: 1px solid #ccc;
+}
+
+.logo{
+	font-size: 50px;
+	font-family: 'Norican', cursive;	
+}
+
+.group:nth-child(1){
+	min-height: 19rem;
+}
+
+.group form{
+	width: 90%;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+	
+}
+
+form input{
+	width: 100%;
+	border: 0;
+	border-radius: 3px;		
+	height: 40px;
+	margin-top: 12px;
+	background: white;
+	color: #333;
+	font-size: 15px;
+	padding-left: 15px;
+	border: 1px solid #ccc;	
+}
+
+form input[type=submit]{
+	width: 100%;
+	height: 40px;	
+	background: #6fbbd3;
+	color: white;
+	cursor: pointer;
+	font-size: 15px;	
+	text-transform: uppercase;	
+}
+
+.group .line{
+	width: 100%;	
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+}
+
+a{
+	text-decoration: none;
+}
+
+.facebook{	
+	margin-top: 20px;	
+}
+
+.facebook a{
+	color: #00008b;
+	font-size: 18px;
+}
+
+.facebook a i{	
+	font-size: 25px;
+}
+
+.esqueceu-senha{
+	margin-top: 15px;
+}
+
+.esqueceu-senha a{
+	font-size: 12px;
+	color: black;	
+	text-decoration: none;
+}
+
+.cadastre a{
+	color: #6fbbd3;
+}
+
+.obtenha-app{
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 1.3rem 0;
+}
+
+.download-logo{
+	width: 100%;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 1rem;
+}
+
+.app-download{
+	height: 3rem;
+	width: 10rem;
+	background-size: cover;
+}
+
+.app-download:nth-child(1){
+	background-image: url('./img/googleplay-button.png');
+}
+
+.app-download:nth-child(2){
+	background-image: url('./img/apple-button.png');
+}
+
+@media (max-width: 1240px){
+	section.wrapper{
+		width: 90%;
+	}
+}
+
+@media (max-width: 1000px){
+	section.wrapper{
+		width: 90%;
+	}
+
+	.phone{
+		display: none;
+	}
+
+	.group{
+		width: 80%;
+	}
+
+	.form-continue{
+		width: 100%;
+	}
+
+@media (max-width: 450px){
+	.logo{
+		width: 90%;
+		text-align: center;
+	}
+	}
+}
+
+   
