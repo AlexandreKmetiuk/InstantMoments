@@ -185,13 +185,14 @@ a{
 		align-items: center;
 		justify-content: center;
 	}
+}
 
 @media (max-width: 450px){
 	.logo{
 		width: 90%;
 		text-align: center;
 	}
-	}
+	
 }
 
    
